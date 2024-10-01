@@ -55,10 +55,4 @@ The footer contains a simple copyright statement and remains fixed at the bottom
 - **Real-time Updates and Recommendations**: Not yet implemented but can be added using JavaScript and backend technologies (e.g., WebSockets for real-time updates).
 - **Privacy Settings**: Can be implemented later in the settings section.
 
-### Next Steps:
-- **Real-time updates** can be handled with JavaScript and WebSockets.
-- **Multimedia sharing** could be added with file inputs and backend storage.
-- **Content recommendations** would require algorithms or machine learning to suggest posts or friends.
-- **Privacy settings** could be implemented through a settings page that allows users to control their visibility and access permissions.
 
-This basic framework serves as a foundation that can be built upon for your platform's specific needs.
