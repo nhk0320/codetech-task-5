@@ -8,6 +8,8 @@ DOMAIN:WEB DEVELOPMENT
 
 DURATION:SEP-OCT 2024
 
+OVERVIEW OF THE TASK : CREATING A SOCIAL MEDIA PLATFORM
+
 
 ### 1. **HTML Structure**
 The code follows the basic HTML structure with the following main parts:
