@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #c65ce1;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #575454;
+            color: white;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        main {
+            display: flex;
+            margin: 20px;
+        }
+        aside {
+            width: 25%;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(28, 28, 28, 0.1);
+        }
+        section {
+            width: 75%;
+            background-color: white;
+            padding: 20px;
+            margin-left: 20px;
+            box-shadow: 0 0 10px rgba(108, 105, 105, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #5e5c5c;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .profile-picture {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .friend-list, .news-feed {
+            margin-bottom: 20px;
+        }
+        .news-feed {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Social Network</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">Messages</a>
+        <a href="#">Notifications</a>
+        <a href="#">Settings</a>
+    </nav>
+
+    <main>
+        <aside>
+            <h2>Your Profile</h2>
+            <h3>Name:Naveena Harikrishnan</h3>
+            <p>Email: navk2024@example.com</p>
+
+            <h3>Friends</h3>
+            <ul class="friend-list">
+                <li>Jane</li>
+                <li>Manisha</li>
+                <li>Rose'
+                </li>
+            </ul>
+        </aside>
+
+        <section>
+            <h2>News Feed</h2>
+
+            <div class="news-feed">
+                <h3>Jane</h3>
+                <p>Had a great day at the beach!</p>
+                <small>2 hours ago</small>
+            </div>
+
+            <div class="news-feed">
+                <h3>Manisha</h3>
+                <p>Just got a new job, feeling excited!</p>
+                <small>4 hours ago</small>
+            </div>
+
+            <div class="news-feed">
+                <h3>Rose'</h3>
+                <p>Anyone up for a coffee tomorrow?</p>
+                <small>5 hours ago</small>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Social Network - All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
