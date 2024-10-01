@@ -12,6 +12,8 @@ OVERVIEW OF THE TASK :
 
 TASK: CREATING A SOCIAL MEDIA PLATFORM
 
+![Screenshot 2024-10-01 204454](https://github.com/user-attachments/assets/2fa78405-cdf8-4934-88a0-1a7573481dd1)
+
 
 ### 1. **HTML Structure**
 The code follows the basic HTML structure with the following main parts:
@@ -58,5 +60,7 @@ The footer contains a simple copyright statement and remains fixed at the bottom
 - **Navigation and Sections**: Users can move between different sections like home, profile, messages, etc.
 - **Real-time Updates and Recommendations**: Not yet implemented but can be added using JavaScript and backend technologies (e.g., WebSockets for real-time updates).
 - **Privacy Settings**: Can be implemented later in the settings section.
+  
+
 
 
